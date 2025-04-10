@@ -1,0 +1,30 @@
+# Binários, builds, VS e pastas geradas
+bin/
+obj/
+*.user
+*.suo
+*.exe
+*.dll
+*.cache
+
+# Configuração local
+app.config
+ProjetoLoginUsuario/app.config
+
+# Ignorar pacotes do NuGet
+*.nupkg
+packages/
+
+# VS Code
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Backup e temporários
+*.tmp
+*.bak
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
